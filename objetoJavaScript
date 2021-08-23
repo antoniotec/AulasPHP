@@ -1,0 +1,11 @@
+
+var cliente = {
+    nome: 'pensão da tia',
+    quarto: 40,
+    reservado: 25,
+    academia: true,
+    checaDisponibilidade: function(){
+        return this.quarto - this.reservado
+    }
+
+}

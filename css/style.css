@@ -1,0 +1,19 @@
+
+	body{
+		background-color:rgb(2, 9, 41);
+		font-family: 'Courier New', Courier, monospace;
+		margin: 0%;
+		}
+		header{
+		display: block;
+		background-color: red;
+		height: 400px;
+		text-align: center
+		}
+		nav{
+			display: inline-flex ;
+		}
+		nav ul li{
+			display: block;
+			padding: 5px;
+		}
